@@ -1,0 +1,16 @@
+{
+  "name": "dash-forced-holiday",
+  "version": "1.0.0",
+  "description": "Anyway, I'm absent from work today !!! X-)",
+  "main": "index.js",
+  "author": "DaisukeKondo",
+  "license": "ISC",
+  "dependencies": {
+    "dash-button": "^2.0.1"
+  },
+  "scripts": {
+    "scan": "dash-button scan",
+    "start": "node index.js"
+  }
+}
+
