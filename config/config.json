@@ -1,0 +1,25 @@
+{
+  "client": {
+    "user": "xxxxxxxx@gmail.com",
+    "clientId": "xxxxxxxx.googleusercontent.com",
+    "clientSecret": "xxxxxxxxxxxxxxxxxx",
+    "refreshToken": "xxxxxxxxxxxxxxxxxx"
+  },
+  "buttons": [
+    {
+      "MACAddress": "xx:xx:xx:xx:xx:xx",
+      "to": "xxxxxxxx@xxxx.com",
+      "myName": "名無しさん＠休みたい",
+      "request": "午前休",
+      "reason": "私用"
+    },
+    {
+      "MACAddress": "xx:xx:xx:xx:xx:xx",
+      "to": "xxxxxxxx@xxxx.com",
+      "myName": "名無しさん＠休みたい",
+      "request": "全休",
+      "reason": "体調不良"
+    }
+  ]
+}
+

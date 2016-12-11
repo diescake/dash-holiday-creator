@@ -1,4 +1,4 @@
-# dash-forced-holiday
+# dash-holiday-creator
 
-Anyway, I'm absent from work today !!! X-)
+dash-holiday-creator creates the best holidays for you !!
 

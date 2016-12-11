@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const DashButton = require('dash-button');
+const AttendenceMailer = require('../lib/AttendenceMailer');
+
+const config = require('../config/config.json');
+
+const mailer = new AttendenceMailer(config.client);
+
+config.buttons.forEach((aButton, aIndex) => {
+  const button = new DashButton(aButton.MACAddress);
+
+  button.addListener(() => {
+    console.log(`creating holidays ... [${aIndex}]`);
+    mailer.send(aButton);
+  });
+});
+

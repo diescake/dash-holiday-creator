@@ -1,16 +1,19 @@
 {
-  "name": "dash-forced-holiday",
+  "name": "dash-holiday-creator",
   "version": "1.0.0",
-  "description": "Anyway, I'm absent from work today !!! X-)",
-  "main": "index.js",
-  "author": "DaisukeKondo",
+  "description": "Have a nice holiday !! =-)",
+  "main": "bin/dash-holiday-creator",
+  "author": "Daisuke Kondo",
   "license": "ISC",
   "dependencies": {
-    "dash-button": "^2.0.1"
+    "dash-button": "^2.0.1",
+    "moment": "^2.17.1",
+    "nodemailer": "^2.4.1",
+    "xoauth2": "^1.1.0"
   },
   "scripts": {
-    "scan": "dash-button scan",
-    "start": "node index.js"
+    "scan": "sudo dash-button scan",
+    "start": "sudo node bin/dash-holiday-creator"
   }
 }
 
