@@ -1,6 +1,6 @@
 # dash-holiday-creator
 
-dash-holiday-creator provides you to greate holidays !!
+dash-holiday-creator provides great holidays to you !!
 
 ## Usage
 
